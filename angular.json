@@ -50,7 +50,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
+              "src/styles.css"
             ],
             "scripts": []
           },
@@ -114,7 +115,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
+              "src/styles.css"
             ],
             "scripts": []
           }
@@ -145,6 +147,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-crud"
+    }
+  },
+  "defaultProject": "angular-crud",
+  "cli": {
+    "analytics": "273db330-72a6-4fad-8c2d-f3b3b44dd932"
+  }
 }
